@@ -1,0 +1,23 @@
+{
+    "name": "renyi666/alipay",
+    "description": "alipay",
+    "type": "sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "GaoYuan",
+            "email": "15764246304@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "5.*",
+        "illuminate/events": "5.*",
+        "illuminate/config": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Renyi666\\Alipay\\": "src/"
+        }
+    }
+}
